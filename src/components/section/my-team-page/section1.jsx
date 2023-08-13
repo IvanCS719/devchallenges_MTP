@@ -22,7 +22,7 @@ export default function Section1() {
                     </p>
                 </div>
             </div>
-            <div className="w-full sm:w-[42rem] md:w-[48rem] lg:w-[60rem] grid grid-cols-2 sm:grid-cols-3 gap-y-8 justify-items-center">
+            <div className="w-full sm:w-[42rem] md:w-[48rem] lg:w-[60rem] grid grid-cols-2 sm:grid-cols-3 gap-y-3 sm:gap-y-8 justify-items-center">
 
                 <CardTeam name={'Bill Mahoney'} photo={photo1} job={'Product owner'} mt={'mt-0'} />
                 <CardTeam name={'Saba Cabrera'} photo={photo2} job={'Art director'} mt={'mt-12 sm:mt-24'} />
